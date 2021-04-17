@@ -1,5 +1,5 @@
 # folders
-.yarn/
-build/
+.yarn/  
+build/  
 dist/
 node_modules/
