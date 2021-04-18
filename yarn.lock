@@ -1491,8 +1491,8 @@ __metadata:
     hardhat-gas-reporter: ^1.0.4
     husky: ^4.3.0
     mocha: ^8.1.3
-    prettier: ^2.1.2
-    prettier-plugin-solidity: ^1.0.0-beta.8
+    prettier: ^2.2.1
+    prettier-plugin-solidity: ^1.0.0-beta.9
     shelljs: ^0.8.4
     solhint: ^3.2.1
     solhint-plugin-prettier: ^0.0.5
@@ -1649,6 +1649,13 @@ __metadata:
   version: 0.12.0
   resolution: "@solidity-parser/parser@npm:0.12.0"
   checksum: a46e2a3b28bd9cd541595f1fa2ba423d6df6b0b4be6184682163ad55d71764411ae611cb225369004734c3a25afe6b116e5141437832fdefe101d5d2c4451edf
+  languageName: node
+  linkType: hard
+
+"@solidity-parser/parser@npm:^0.12.1":
+  version: 0.12.1
+  resolution: "@solidity-parser/parser@npm:0.12.1"
+  checksum: 2be0f9ae18d84841a25548abb15160772b0b8f3905a78a738c112fd27d344ea2b2eaa5d2df6ff0c5489957fff7b8b5d4faf0a4638a400e9b443c79fffe597096
   languageName: node
   linkType: hard
 
@@ -5067,7 +5074,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:^9.2.1":
+"emoji-regex@npm:^9.2.2":
   version: 9.2.2
   resolution: "emoji-regex@npm:9.2.2"
   checksum: f3029ec432745ecb7cf5dcea1bc9ad3d70714ef20fcae1dc87a422d3be68913c42ed3adbb86765e7aa6c723c3bcd5833b5f4e22ed06d5e5cb74e0f628d4fc95b
@@ -10901,19 +10908,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-solidity@npm:^1.0.0-beta.8":
-  version: 1.0.0-beta.8
-  resolution: "prettier-plugin-solidity@npm:1.0.0-beta.8"
+"prettier-plugin-solidity@npm:^1.0.0-beta.9":
+  version: 1.0.0-beta.9
+  resolution: "prettier-plugin-solidity@npm:1.0.0-beta.9"
   dependencies:
-    "@solidity-parser/parser": ^0.12.0
+    "@solidity-parser/parser": ^0.12.1
     dir-to-object: ^2.0.0
-    emoji-regex: ^9.2.1
+    emoji-regex: ^9.2.2
     escape-string-regexp: ^4.0.0
     prettier: ^2.2.1
     semver: ^7.3.5
     solidity-comments-extractor: ^0.0.6
-    string-width: ^4.2.0
-  checksum: 0aebe51394187f4a46deeca8f9976975c7afc89559748650ed7e1dde0d79e391bbe0c5459d415fd3f922343237d74068313cdf9492a2f323d38d6fc5dc49bbbc
+    string-width: ^4.2.2
+  checksum: de874eb6a826d5836abb0128fd18c4666e909cdc6d240016b31edab22aa805bb6fe6462c7f125fcdd2fda3b78999478b5483fddc912b5cfdfd54f71453473e19
   languageName: node
   linkType: hard
 
@@ -12725,6 +12732,17 @@ resolve@1.1.x:
     is-fullwidth-code-point: ^3.0.0
     strip-ansi: ^6.0.0
   checksum: cf1e8acddf3d6d6e9e168628cc58cf1b33b1e7e801af2a0c18316e4e8beb62361eb9aad6eab2fc86de972ab149cb7262aedc2a5d0c2ce28873c91b171cce84d7
+  languageName: node
+  linkType: hard
+
+"string-width@npm:^4.2.2":
+  version: 4.2.2
+  resolution: "string-width@npm:4.2.2"
+  dependencies:
+    emoji-regex: ^8.0.0
+    is-fullwidth-code-point: ^3.0.0
+    strip-ansi: ^6.0.0
+  checksum: d42484f5fdc50b4a573be784a06bc971e124d3fdc08779848a58d632bc88b349a33af54d1f0e1904dbd5dcbbe50651e4b39938799ebb1011a730421af1381892
   languageName: node
   linkType: hard
 
